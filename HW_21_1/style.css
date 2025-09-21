@@ -1,0 +1,35 @@
+body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+      }
+table {
+        border: 2px solid black;
+        border-collapse: collapse;
+        width:50%
+    }
+td  {
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+    }
+td.td_center{
+        text-align: center;
+    }
+td.td_center_50{
+        text-align: center;
+        width:50%;
+    }
+p.justified {
+    text-align: justify;
+  }
+a {
+    color: blue;
+    text-decoration: none;
+  }
+a:hover {
+    color: red;
+  }
+a:active {
+    color: green;
+  }
